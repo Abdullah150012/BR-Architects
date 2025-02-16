@@ -1,0 +1,17 @@
+.hover:hover{
+    background-color: #CCCCCC;
+}
+#hero #hero-bg{
+    height: 50vw;
+    background-image: url(architect.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.textSpacing{
+    letter-spacing: 0.2vw;
+    font-weight: 500;
+}
