@@ -15,3 +15,12 @@
     letter-spacing: 0.2vw;
     font-weight: 500;
 }
+.aboutbtn{
+    width: 100%;
+}
+.aboutbtn:hover{
+    background-color: #CCCCCC;
+}
+.imgBlackNWhite{
+    filter: grayscale(75%);
+}
