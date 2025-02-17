@@ -1,3 +1,12 @@
+.mian{
+    min-height: 100px;
+}
+.navbar-fixed-top{
+   background-position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;}
 .hover:hover{
     background-color: #CCCCCC;
 }
@@ -23,4 +32,27 @@
 }
 .imgBlackNWhite{
     filter: grayscale(75%);
+}
+#last-hero #last-hero-bg{
+    height: 50vw;
+    background-image: url(lastImage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color : #fff;
+    font-size: large;
+}
+.footer p a{
+    color: #fff;
+}
+.footer p a:hover{
+    color: #4CAF50;
 }
