@@ -1,3 +1,10 @@
+html, body {
+    overflow-x: hidden;
+}
+#mainWraper {
+    min-height: 100vh;
+}
+
 .mian{
     min-height: 100px;
 }
